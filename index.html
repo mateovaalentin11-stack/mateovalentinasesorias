@@ -1,196 +1,87 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html><html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mateo Valentin | Asesorías Fitness</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-
-<style>
-
-body{
-font-family:Poppins, sans-serif;
-margin:0;
-background:white;
-color:#222;
-text-align:center;
-}
-
-section{
-padding:60px 20px;
-}
-
-h1{
-font-size:40px;
-margin-bottom:20px;
-}
-
-h2{
-font-size:30px;
-margin-bottom:30px;
-}
-
-p{
-color:#555;
-max-width:600px;
-margin:auto;
-}
-
-.boton{
-display:inline-block;
-margin-top:30px;
-padding:15px 30px;
-background:#facc15;
-color:black;
-font-weight:700;
-border-radius:40px;
-text-decoration:none;
-font-size:18px;
-}
-
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:20px;
-max-width:900px;
-margin:auto;
-margin-top:40px;
-}
-
-.card{
-background:#fff8db;
-padding:25px;
-border-radius:15px;
-}
-
-ul{
-list-style:none;
-padding:0;
-text-align:left;
-}
-
-li{
-margin:8px 0;
-}
-
-.whatsapp{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#facc15;
-color:black;
-padding:16px;
-border-radius:50%;
-font-size:22px;
-text-decoration:none;
-}
-
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mateo Valentin | Asesorías Fitness</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; margin:0; }
+    html { overflow-x:hidden; }
+  </style>
 </head>
-
-<body>
-
-<section>
-
-<h1>Transformá tu físico 💪</h1>
-
-<p>
-Asesorías online personalizadas para ganar músculo, perder grasa y llevar tu físico al siguiente nivel.
-</p>
-
-<a class="boton" href="https://wa.me/5491140701163?text=Hola%20Mateo%20quiero%20info%20sobre%20la%20asesoria">
-Quiero mi asesoría
-</a>
-
-</section>
-
-<section>
-
-<h2>¿Por qué trabajar conmigo?</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>Experiencia real</h3>
-<p>Métodos prácticos enfocados en resultados visibles.</p>
-</div>
-
-<div class="card">
-<h3>100% personalizado</h3>
-<p>Plan adaptado a tu nivel y objetivo.</p>
-</div>
-
-<div class="card">
-<h3>Seguimiento constante</h3>
-<p>Ajustes para asegurar progreso real.</p>
-</div>
-
-</div>
-
-</section>
-
-<section style="background:#fff8db">
-
-<h2>¿Qué incluye mi asesoría?</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>📋 Plan de entrenamiento</h3>
-<ul>
-<li>🏋 Rutina personalizada</li>
-<li>📈 Progresión estructurada</li>
-<li>🎯 Adaptado a tu objetivo</li>
-</ul>
-</div>
-
-<div class="card">
-<h3>🥗 Plan nutricional</h3>
-<ul>
-<li>🔥 Cálculo de calorías</li>
-<li>⚖ Ajuste de macros</li>
-<li>📊 Cambios según progreso</li>
-</ul>
-</div>
-
-<div class="card">
-<h3>📲 Seguimiento</h3>
-<ul>
-<li>💬 Contacto por WhatsApp</li>
-<li>🗓 Revisión semanal</li>
-<li>🚀 Ajustes estratégicos</li>
-</ul>
-</div>
-
-<div class="card">
-<h3>🧠 Educación fitness</h3>
-<ul>
-<li>📚 Aprendés a entrenar</li>
-<li>🍽 Mejorás tu nutrición</li>
-<li>🏆 Resultados sostenibles</li>
-</ul>
-</div>
-
-</div>
-
-</section>
-
-<section>
-
-<h2>Cupos limitados ⚠️</h2>
-
-<p>
-Trabajo con pocas personas para garantizar resultados reales.
-</p>
-
-<a class="boton" href="https://wa.me/5491140701163?text=Hola%20Mateo%20quiero%20reservar%20mi%20cupo">
-Reservar mi lugar
-</a>
-
-</section>
-
-<a class="whatsapp" href="https://wa.me/5491140701163">💬</a>
+<body class="bg-white text-gray-900">  <!-- HERO -->  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-b from-white to-yellow-50">
+    <h1 class="text-4xl md:text-5xl font-extrabold mb-6">
+      Transformá tu físico 💪
+    </h1>
+    <p class="max-w-xl text-gray-600 text-lg mb-8">
+      Asesorías online personalizadas para ganar músculo, perder grasa y llevar tu físico al siguiente nivel.
+    </p>
+    <a href="https://api.whatsapp.com/send?phone=5491140701163&text=Hola%20Mateo%20quiero%20informacion%20sobre%20la%20asesoria" target="_blank"
+       class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-4 px-10 rounded-full text-lg shadow-lg transition">
+       Quiero mi asesoría
+    </a>
+  </section>  <!-- POR QUÉ TRABAJAR CONMIGO -->  <section class="py-20 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-12">¿Por qué trabajar conmigo?</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="p-8 bg-yellow-50 rounded-2xl shadow">
+        <h3 class="font-bold text-lg mb-3">Experiencia real</h3>
+        <p class="text-gray-600">Métodos prácticos enfocados en resultados visibles.</p>
+      </div>
+      <div class="p-8 bg-yellow-50 rounded-2xl shadow">
+        <h3 class="font-bold text-lg mb-3">100% personalizado</h3>
+        <p class="text-gray-600">Plan adaptado a tu nivel y objetivo.</p>
+      </div>
+      <div class="p-8 bg-yellow-50 rounded-2xl shadow">
+        <h3 class="font-bold text-lg mb-3">Seguimiento constante</h3>
+        <p class="text-gray-600">Ajustes semanales para asegurar progreso.</p>
+      </div>
+    </div>
+  </section>  <!-- QUÉ INCLUYE -->  <section class="py-20 px-6 bg-yellow-50 text-center">
+    <h2 class="text-3xl font-bold mb-12">¿Qué incluye mi asesoría?</h2>
+    <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto text-left">
+      <div class="bg-white p-8 rounded-2xl shadow">
+        <h3 class="font-bold text-lg mb-4">📋 Plan de entrenamiento</h3>
+        <ul class="space-y-2 text-gray-600">
+          <li>🏋 Rutina personalizada</li>
+          <li>📈 Progresión estructurada</li>
+          <li>🎯 Adaptado a tu objetivo</li>
+        </ul>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow">
+        <h3 class="font-bold text-lg mb-4">🥗 Plan nutricional</h3>
+        <ul class="space-y-2 text-gray-600">
+          <li>🔥 Cálculo de calorías</li>
+          <li>⚖ Ajuste de macronutrientes</li>
+          <li>📊 Modificaciones según progreso</li>
+        </ul>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow">
+        <h3 class="font-bold text-lg mb-4">📲 Seguimiento</h3>
+        <ul class="space-y-2 text-gray-600">
+          <li>💬 Contacto directo por WhatsApp</li>
+          <li>🗓 Revisión semanal</li>
+          <li>🚀 Ajustes estratégicos</li>
+        </ul>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow">
+        <h3 class="font-bold text-lg mb-4">🧠 Educación fitness</h3>
+        <ul class="space-y-2 text-gray-600">
+          <li>📚 Aprendés a entrenar correctamente</li>
+          <li>🍽 Mejorás tu relación con la comida</li>
+          <li>🏆 Resultados sostenibles</li>
+        </ul>
+      </div>
+    </div>
+  </section>  <!-- CTA FINAL -->  <section class="py-20 text-center">
+    <h2 class="text-3xl font-bold mb-6">Cupos limitados ⚠️</h2>
+    <p class="text-gray-600 mb-8">Trabajo con pocas personas para garantizar resultados reales.</p>
+    <a href="https://api.whatsapp.com/send?phone=5491140701163&text=Hola%20Mateo%20quiero%20informacion%20sobre%20la%20asesoria" target="_blank"
+       class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-4 px-10 rounded-full text-lg shadow-lg transition">
+       Reservar mi lugar
+    </a>
+  </section>  <!-- BOTÓN FLOTANTE --><a href="https://api.whatsapp.com/send?phone=5491140701163&text=Hola%20Mateo%20quiero%20informacion%20sobre%20la%20asesoria" target="_blank"
+class="fixed bottom-6 right-6 bg-yellow-500 hover:bg-yellow-600 text-white p-4 rounded-full shadow-xl text-xl"> 💬 </a>
 
 </body>
-  </html>
+      </html>
